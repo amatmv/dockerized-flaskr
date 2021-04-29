@@ -1,3 +1,3 @@
-# test-github-actions
+# Dockerized flaskr test app taken from https://flask.palletsprojects.com/en/1.1.x/tutorial/
 
-[![Python application](https://github.com/amatmv/test-github-actions/actions/workflows/pythonapp.yml/badge.svg?branch=master)](https://github.com/amatmv/test-github-actions/actions/workflows/pythonapp.yml)
+[![Docker flaskr](https://github.com/amatmv/test-github-actions/actions/workflows/flaskr.yml/badge.svg?branch=master)](https://github.com/amatmv/test-github-actions/actions/workflows/flaskr.yml)

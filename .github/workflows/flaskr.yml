@@ -30,7 +30,7 @@ jobs:
         flake8 flaskr/ --count --exit-zero --statistics
     - name: Test pytest with coverage
       run: |
-        docker run -e PYTHONPATH=/app -it flaskr coverage run -m pytest && coverage report
+        docker run -e PYTHONPATH=/app -it flaskr coverage run -m pytest
     - name: Check imports with isort
       run: |
         isort flaskr/ --check-only
